@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>户外活动日程表</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .club-section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .club-title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .table {
+            font-size: 0.9em;
+        }
+        .table th {
+            background-color: #f1f8ff;
+        }
+        .date-column {
+            width: 100px;
+            text-align: center;
+        }
+        .activity-title {
+            font-weight: bold;
+        }
+        #filter-input {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .table {
+                font-size: 0.8em;
+            }
+            .date-column {
+                width: auto;
+            }
+            .club-title {
+                font-size: 1.2em;
+            }
+        }
+        
+        .table-responsive {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-3 mt-md-5">
+        <h1 class="text-center mb-3 mb-md-4">户外活动日程表</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <input type="text" id="filter-input" class="form-control mb-3" placeholder="搜索活动...">
+            </div>
+        </div>
+        <div id="csv-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const clubNames = {
+            'sanfu': '三夫户外',
+            'beitu': '北京徒步者',
+            'hipeak': '嗨皮客',
+            'beilv': '北驴',
+            'xiyu': '溪语户外',
+            'tuqiang': '徒步强国',
+            'ep': 'EP逃离计划',
+            'zhushe': '竹社',
+            'fenglv': '峰旅户外',
+            'piaochong': '瓢虫户外',
+            'saye': '北京撒野户外'
+        };
+
+        async function loadCSVFiles() {
+            const csvFiles = [
+                'results/hipeak.csv', 'results/beitu.csv', 'results/sanfu.csv',
+                'results/beilv.csv', 'results/xiyu.csv', 'results/ep.csv',
+                'results/tuqiang.csv', 'results/zhushe.csv', 'results/fenglv.csv',
+                'results/piaochong.csv', 'results/saye.csv'
+            ];
+
+            const container = document.querySelector('#csv-container');
+
+            for (const file of csvFiles) {
+                const response = await fetch(file);
+                const data = await response.text();
+                const rows = data.split('\n').slice(1);
+                const fileName = file.split('/').pop().replace('.csv', '');
+                const clubName = clubNames[fileName] || fileName;
+
+                const section = document.createElement('div');
+                section.classList.add('club-section');
+
+                const title = document.createElement('div');
+                title.classList.add('club-title');
+                title.textContent = `俱乐部: ${clubName}`;
+                section.appendChild(title);
+
+                const table = document.createElement('table');
+                table.classList.add('table', 'table-striped', 'table-hover');
+                const thead = document.createElement('thead');
+                const tbody = document.createElement('tbody');
+
+                const headerRow = document.createElement('tr');
+                ['活动', '开始日期', '结束日期'].forEach(headerText => {
+                    const th = document.createElement('th');
+                    th.textContent = headerText;
+                    if (headerText !== '活动') th.classList.add('date-column');
+                    headerRow.appendChild(th);
+                });
+                thead.appendChild(headerRow);
+                table.appendChild(thead);
+
+                rows.forEach(row => {
+                    if (row.trim()) {
+                        const cols = row.split(',');
+                        const tr = document.createElement('tr');
+                        // 修改这里：正确展示活动名称、开始日期和结束日期
+                        [cols[0], cols[2], cols[3]].forEach((col, index) => {
+                            const td = document.createElement('td');　
+                            td.textContent = col;
+                            if (index === 0) td.classList.add('activity-title');
+                            if (index > 0) td.classList.add('date-column');
+                            tr.appendChild(td);
+                        });
+                        tbody.appendChild(tr);
+                    }
+                });
+                table.appendChild(tbody);
+
+                const tableResponsive = document.createElement('div');
+                tableResponsive.classList.add('table-responsive');
+                tableResponsive.appendChild(table);
+                section.appendChild(tableResponsive);
+
+                container.appendChild(section);
+            }
+        }
+
+        loadCSVFiles();
+
+        document.getElementById('filter-input').addEventListener('input', function() {
+            const filterValue = this.value.toLowerCase();
+            document.querySelectorAll('.club-section').forEach(section => {
+                const rows = section.querySelectorAll('tbody tr');
+                let hasVisibleRows = false;
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    if (text.includes(filterValue)) {
+                        row.style.display = '';
+                        hasVisibleRows = true;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                section.style.display = hasVisibleRows ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
