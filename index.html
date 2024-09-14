@@ -83,8 +83,11 @@
             'fenglv': '峰旅户外',
             'piaochong': '瓢虫户外',
             'saye': '北京撒野户外',
-            'feiye: '飞野户外',
-            'quhaipi': '趣嗨皮QuHipi'
+            'feiye': '飞野户外',
+            'quhaipi': '趣嗨皮QuHipi',
+            'qingluying': '轻露营',
+            'huwaixing': '户外星',
+            'yiqijiuba': '北京1798户外'
         };
 
         async function loadCSVFiles() {
@@ -93,68 +96,77 @@
                 'results/beilv.csv', 'results/xiyu.csv', 'results/ep.csv',
                 'results/tuqiang.csv', 'results/zhushe.csv', 'results/fenglv.csv',
                 'results/piaochong.csv', 'results/saye.csv', 'results/feiye.csv',
-                'results/quhaipi.csv', 'results/huwaixing.csv', 'results/qingluying.csv'
+                'results/quhaipi.csv', 'results/huwaixing.csv', 'results/qingluying.csv',
+                'results/yiqijiuba.csv'
             ];
 
             const container = document.querySelector('#csv-container');
 
             for (const file of csvFiles) {
-                const response = await fetch(file);
-                const data = await response.text();
-                const rows = data.split('\n').slice(1);
-                const fileName = file.split('/').pop().replace('.csv', '');
-                const clubName = clubNames[fileName] || fileName;
-
-                const section = document.createElement('div');
-                section.classList.add('club-section');
-
-                const title = document.createElement('div');
-                title.classList.add('club-title');
-                title.textContent = `俱乐部: ${clubName}`;
-                section.appendChild(title);
-
-                const table = document.createElement('table');
-                table.classList.add('table', 'table-striped', 'table-hover');
-                const thead = document.createElement('thead');
-                const tbody = document.createElement('tbody');
-
-                const headerRow = document.createElement('tr');
-                ['活动', '开始日期', '结束日期'].forEach(headerText => {
-                    const th = document.createElement('th');
-                    th.textContent = headerText;
-                    if (headerText !== '活动') th.classList.add('date-column');
-                    headerRow.appendChild(th);
-                });
-                thead.appendChild(headerRow);
-                table.appendChild(thead);
-
-                rows.forEach(row => {
-                    if (row.trim()) {
-                        const cols = row.split(',');
-                        const tr = document.createElement('tr');
-                        // 修改这里：正确展示活动名称、开始日期和结束日期
-                        [cols[0], cols[2], cols[3]].forEach((col, index) => {
-                            const td = document.createElement('td');　
-                            td.textContent = col;
-                            if (index === 0) td.classList.add('activity-title');
-                            if (index > 0) td.classList.add('date-column');
-                            tr.appendChild(td);
-                        });
-                        tbody.appendChild(tr);
+                try {
+                    const response = await fetch(file);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
                     }
-                });
-                table.appendChild(tbody);
+                    const data = await response.text();
+                    const rows = data.split('\n').slice(1);
+                    const fileName = file.split('/').pop().replace('.csv', '');
+                    const clubName = clubNames[fileName] || fileName;
 
-                const tableResponsive = document.createElement('div');
-                tableResponsive.classList.add('table-responsive');
-                tableResponsive.appendChild(table);
-                section.appendChild(tableResponsive);
+                    const section = document.createElement('div');
+                    section.classList.add('club-section');
 
-                container.appendChild(section);
+                    const title = document.createElement('div');
+                    title.classList.add('club-title');
+                    title.textContent = `俱乐部: ${clubName}`;
+                    section.appendChild(title);
+
+                    const table = document.createElement('table');
+                    table.classList.add('table', 'table-striped', 'table-hover');
+                    const thead = document.createElement('thead');
+                    const tbody = document.createElement('tbody');
+
+                    const headerRow = document.createElement('tr');
+                    ['活动', '开始日期', '结束日期', '集合地点'].forEach(headerText => {
+                        const th = document.createElement('th');
+                        th.textContent = headerText;
+                        if (headerText !== '活动') th.classList.add('date-column');
+                        headerRow.appendChild(th);
+                    });
+                    thead.appendChild(headerRow);
+                    table.appendChild(thead);
+
+                    rows.forEach(row => {
+                        if (row.trim()) {
+                            const cols = row.split(',');
+                            const tr = document.createElement('tr');
+                            // 修改这里：正确展示活动名称、开始日期和结束日期
+                            [cols[0], cols[2], cols[3], cols[4]].forEach((col, index) => {
+                                const td = document.createElement('td');　
+                                td.textContent = col;
+                                if (index === 0) td.classList.add('activity-title');
+                                if (index > 0) td.classList.add('date-column');
+                                tr.appendChild(td);
+                            });
+                            tbody.appendChild(tr);
+                        }
+                    });
+                    table.appendChild(tbody);
+
+                    const tableResponsive = document.createElement('div');
+                    tableResponsive.classList.add('table-responsive');
+                    tableResponsive.appendChild(table);
+                    section.appendChild(tableResponsive);
+
+                    container.appendChild(section);
+                    console.log(`成功加载文件: ${file}`);
+                } catch (error) {
+                    console.error(`加载文件 ${file} 时出错:`, error);
+                }
             }
         }
 
-        loadCSVFiles();
+        loadCSVFiles().catch(error => console.error('加载CSV文件时发生错误:', error));
 
         document.getElementById('filter-input').addEventListener('input', function() {
             const filterValue = this.value.toLowerCase();
