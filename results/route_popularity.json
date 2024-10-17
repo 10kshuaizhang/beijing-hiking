@@ -1,106 +1,262 @@
 [
   {
     "route": "秋林铺",
-    "percentage": 9.87
+    "percentage": 8.08
   },
   {
     "route": "喇叭沟门",
-    "percentage": 9.21
+    "percentage": 7.58
   },
   {
     "route": "坡峰岭",
-    "percentage": 6.58
+    "percentage": 6.06
   },
   {
     "route": "舞彩浅山",
-    "percentage": 5.26
+    "percentage": 5.05
   },
   {
     "route": "蚕姑坨",
-    "percentage": 3.29
-  },
-  {
-    "route": "灵山",
-    "percentage": 3.29
-  },
-  {
-    "route": "麻田岭",
-    "percentage": 3.29
-  },
-  {
-    "route": "桦皮岭",
-    "percentage": 2.63
+    "percentage": 3.03
   },
   {
     "route": "百里画廊",
-    "percentage": 2.63
+    "percentage": 3.03
+  },
+  {
+    "route": "灵山",
+    "percentage": 2.53
+  },
+  {
+    "route": "药王谷",
+    "percentage": 2.53
+  },
+  {
+    "route": "麻田岭",
+    "percentage": 2.53
   },
   {
     "route": "长城",
-    "percentage": 1.97
+    "percentage": 2.02
   },
   {
-    "route": "金海湖",
-    "percentage": 1.97
-  },
-  {
-    "route": "泰山",
-    "percentage": 1.97
-  },
-  {
-    "route": "银山塔林",
-    "percentage": 1.97
+    "route": "桦皮岭",
+    "percentage": 2.02
   },
   {
     "route": "金山岭长城",
-    "percentage": 1.32
+    "percentage": 2.02
+  },
+  {
+    "route": "南太行",
+    "percentage": 2.02
+  },
+  {
+    "route": "婺源",
+    "percentage": 2.02
+  },
+  {
+    "route": "北灵山",
+    "percentage": 2.02
+  },
+  {
+    "route": "长穿毕",
+    "percentage": 2.02
+  },
+  {
+    "route": "红螺三险",
+    "percentage": 1.52
+  },
+  {
+    "route": "金海湖",
+    "percentage": 1.52
+  },
+  {
+    "route": "泰山",
+    "percentage": 1.52
   },
   {
     "route": "东灵山",
-    "percentage": 1.32
+    "percentage": 1.52
   },
   {
-    "route": "虎跳峡",
-    "percentage": 1.32
-  },
-  {
-    "route": "玉渡山",
-    "percentage": 1.32
+    "route": "银山塔林",
+    "percentage": 1.52
   },
   {
     "route": "香山",
-    "percentage": 1.32
+    "percentage": 1.52
   },
   {
-    "route": "狗牙山",
-    "percentage": 1.32
+    "route": "石虎线",
+    "percentage": 1.52
   },
   {
     "route": "大黑峰",
-    "percentage": 1.32
+    "percentage": 1.52
   },
   {
-    "route": "箭扣长城",
-    "percentage": 1.32
+    "route": "歪顶坨",
+    "percentage": 1.01
   },
   {
-    "route": "南石洋",
-    "percentage": 0.66
+    "route": "五台山",
+    "percentage": 1.01
+  },
+  {
+    "route": "虎跳峡",
+    "percentage": 1.01
   },
   {
     "route": "白瀑寺",
-    "percentage": 0.66
+    "percentage": 1.01
+  },
+  {
+    "route": "长峪城",
+    "percentage": 1.01
+  },
+  {
+    "route": "玉渡山",
+    "percentage": 1.01
+  },
+  {
+    "route": "狗牙山",
+    "percentage": 1.01
+  },
+  {
+    "route": "恒山",
+    "percentage": 1.01
+  },
+  {
+    "route": "箭扣长城",
+    "percentage": 1.01
+  },
+  {
+    "route": "燕羽山",
+    "percentage": 1.01
+  },
+  {
+    "route": "莲花滩",
+    "percentage": 1.01
+  },
+  {
+    "route": "雁栖湖",
+    "percentage": 0.51
+  },
+  {
+    "route": "丰宁",
+    "percentage": 0.51
+  },
+  {
+    "route": "川西",
+    "percentage": 0.51
+  },
+  {
+    "route": "香格里拉",
+    "percentage": 0.51
+  },
+  {
+    "route": "武功山",
+    "percentage": 0.51
+  },
+  {
+    "route": "恩施",
+    "percentage": 0.51
+  },
+  {
+    "route": "南石洋",
+    "percentage": 0.51
+  },
+  {
+    "route": "狐狸峪",
+    "percentage": 0.51
+  },
+  {
+    "route": "神农架",
+    "percentage": 0.51
+  },
+  {
+    "route": "济州岛",
+    "percentage": 0.51
+  },
+  {
+    "route": "黄山",
+    "percentage": 0.51
   },
   {
     "route": "龙门涧",
-    "percentage": 0.66
+    "percentage": 0.51
+  },
+  {
+    "route": "康西草原",
+    "percentage": 0.51
+  },
+  {
+    "route": "龙宫山",
+    "percentage": 0.51
+  },
+  {
+    "route": "杏黄古道",
+    "percentage": 0.51
   },
   {
     "route": "黄花梁",
-    "percentage": 0.66
+    "percentage": 0.51
+  },
+  {
+    "route": "龙养天坑",
+    "percentage": 0.51
+  },
+  {
+    "route": "猴石梁",
+    "percentage": 0.51
+  },
+  {
+    "route": "鸭山",
+    "percentage": 0.51
+  },
+  {
+    "route": "西山",
+    "percentage": 0.51
+  },
+  {
+    "route": "铡刀背",
+    "percentage": 0.51
   },
   {
     "route": "云蒙峡谷",
-    "percentage": 0.66
+    "percentage": 0.51
+  },
+  {
+    "route": "椴树岭",
+    "percentage": 0.51
+  },
+  {
+    "route": "蒲洼",
+    "percentage": 0.51
+  },
+  {
+    "route": "墩台山",
+    "percentage": 0.51
+  },
+  {
+    "route": "赤壁",
+    "percentage": 0.51
+  },
+  {
+    "route": "天马草原",
+    "percentage": 0.51
+  },
+  {
+    "route": "将尖山",
+    "percentage": 0.51
+  },
+  {
+    "route": "卧牛盘",
+    "percentage": 0.51
+  },
+  {
+    "route": "水峪村",
+    "percentage": 0.51
   }
 ]
