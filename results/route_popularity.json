@@ -36,10 +36,6 @@
     "percentage": 2.53
   },
   {
-    "route": "长城",
-    "percentage": 2.02
-  },
-  {
     "route": "桦皮岭",
     "percentage": 2.02
   },
@@ -138,6 +134,14 @@
   {
     "route": "莲花滩",
     "percentage": 1.01
+  },
+  {
+    "route": "五座楼",
+    "percentage": 0.51
+  },
+  {
+    "route": "喜峰口水长城",
+    "percentage": 0.51
   },
   {
     "route": "雁栖湖",
