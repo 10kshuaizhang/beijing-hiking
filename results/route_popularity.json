@@ -20,12 +20,12 @@
     "percentage": 3.98
   },
   {
-    "route": "石虎线",
+    "route": "北灵山",
     "percentage": 3.41
   },
   {
-    "route": "灵山",
-    "percentage": 2.84
+    "route": "石虎线",
+    "percentage": 3.41
   },
   {
     "route": "红花峪",
@@ -52,15 +52,15 @@
     "percentage": 1.7
   },
   {
-    "route": "北灵山",
-    "percentage": 1.7
-  },
-  {
     "route": "野鸭湖",
     "percentage": 1.14
   },
   {
     "route": "燕羽山",
+    "percentage": 1.14
+  },
+  {
+    "route": "千灵山",
     "percentage": 1.14
   },
   {
@@ -81,6 +81,10 @@
   },
   {
     "route": "长峪城",
+    "percentage": 1.14
+  },
+  {
+    "route": "大青山",
     "percentage": 1.14
   },
   {
@@ -125,6 +129,10 @@
   },
   {
     "route": "鹿皮关",
+    "percentage": 0.57
+  },
+  {
+    "route": "琉璃渠",
     "percentage": 0.57
   },
   {
