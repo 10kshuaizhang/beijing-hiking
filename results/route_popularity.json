@@ -1,178 +1,106 @@
 [
   {
-    "route": "舞彩浅山",
-    "percentage": 15.91
-  },
-  {
     "route": "坡峰岭",
-    "percentage": 13.64
+    "percentage": 16.36
   },
   {
-    "route": "蚕姑坨",
-    "percentage": 10.23
+    "route": "舞彩浅山",
+    "percentage": 14.55
   },
   {
     "route": "金海湖",
-    "percentage": 6.25
-  },
-  {
-    "route": "百里画廊",
-    "percentage": 3.98
-  },
-  {
-    "route": "北灵山",
-    "percentage": 3.41
-  },
-  {
-    "route": "石虎线",
-    "percentage": 3.41
+    "percentage": 12.73
   },
   {
     "route": "红花峪",
-    "percentage": 2.27
+    "percentage": 3.64
   },
   {
-    "route": "金山岭长城",
-    "percentage": 2.27
+    "route": "百里画廊",
+    "percentage": 3.64
   },
   {
-    "route": "南太行",
-    "percentage": 1.7
-  },
-  {
-    "route": "桦皮岭",
-    "percentage": 1.7
+    "route": "石虎线",
+    "percentage": 3.64
   },
   {
     "route": "白瀑寺",
-    "percentage": 1.7
-  },
-  {
-    "route": "麻田岭",
-    "percentage": 1.7
-  },
-  {
-    "route": "野鸭湖",
-    "percentage": 1.14
-  },
-  {
-    "route": "燕羽山",
-    "percentage": 1.14
-  },
-  {
-    "route": "千灵山",
-    "percentage": 1.14
-  },
-  {
-    "route": "雁栖湖",
-    "percentage": 1.14
-  },
-  {
-    "route": "谷积山",
-    "percentage": 1.14
-  },
-  {
-    "route": "银山塔林",
-    "percentage": 1.14
-  },
-  {
-    "route": "泰山",
-    "percentage": 1.14
-  },
-  {
-    "route": "长峪城",
-    "percentage": 1.14
-  },
-  {
-    "route": "大青山",
-    "percentage": 1.14
-  },
-  {
-    "route": "药王谷",
-    "percentage": 1.14
+    "percentage": 3.64
   },
   {
     "route": "狗牙山",
-    "percentage": 1.14
-  },
-  {
-    "route": "南北梯",
-    "percentage": 1.14
-  },
-  {
-    "route": "秋林铺",
-    "percentage": 1.14
+    "percentage": 3.64
   },
   {
     "route": "三峰",
-    "percentage": 1.14
+    "percentage": 3.64
   },
   {
-    "route": "箭扣长城",
-    "percentage": 0.57
+    "route": "蚕姑坨",
+    "percentage": 3.64
   },
   {
     "route": "香山",
-    "percentage": 0.57
+    "percentage": 1.82
   },
   {
-    "route": "云雾山",
-    "percentage": 0.57
+    "route": "千灵山",
+    "percentage": 1.82
   },
   {
-    "route": "香格里拉",
-    "percentage": 0.57
-  },
-  {
-    "route": "婺源",
-    "percentage": 0.57
+    "route": "雁栖湖",
+    "percentage": 1.82
   },
   {
     "route": "鹿皮关",
-    "percentage": 0.57
+    "percentage": 1.82
+  },
+  {
+    "route": "麻田岭",
+    "percentage": 1.82
+  },
+  {
+    "route": "蓟州",
+    "percentage": 1.82
+  },
+  {
+    "route": "桦皮岭",
+    "percentage": 1.82
   },
   {
     "route": "琉璃渠",
-    "percentage": 0.57
-  },
-  {
-    "route": "翠屏湖",
-    "percentage": 0.57
+    "percentage": 1.82
   },
   {
     "route": "慕田峪长城",
-    "percentage": 0.57
+    "percentage": 1.82
   },
   {
     "route": "达摩村",
-    "percentage": 0.57
+    "percentage": 1.82
   },
   {
-    "route": "龙宫山",
-    "percentage": 0.57
+    "route": "银山塔林",
+    "percentage": 1.82
   },
   {
-    "route": "东灵山",
-    "percentage": 0.57
+    "route": "野鸭湖",
+    "percentage": 1.82
   },
   {
-    "route": "龙养天坑",
-    "percentage": 0.57
+    "route": "玉皇塔",
+    "percentage": 1.82
   },
   {
-    "route": "十渡",
-    "percentage": 0.57
-  },
-  {
-    "route": "东指壶",
-    "percentage": 0.57
+    "route": "北灵山",
+    "percentage": 1.82
   },
   {
     "route": "漆树洼",
-    "percentage": 0.57
+    "percentage": 1.82
   },
   {
-    "route": "五指峰",
-    "percentage": 0.57
+    "route": "药王谷",
+    "percentage": 1.82
   }
 ]
