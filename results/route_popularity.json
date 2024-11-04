@@ -1,154 +1,186 @@
 [
   {
-    "route": "婺源",
-    "percentage": 11.43
-  },
-  {
     "route": "金海湖",
-    "percentage": 10.0
+    "percentage": 9.8
   },
   {
-    "route": "广化寺",
-    "percentage": 7.14
-  },
-  {
-    "route": "谷积山",
-    "percentage": 5.71
+    "route": "婺源",
+    "percentage": 8.82
   },
   {
     "route": "舞彩浅山",
-    "percentage": 4.29
+    "percentage": 7.84
   },
   {
-    "route": "珍珠湖",
-    "percentage": 2.86
+    "route": "谷积山",
+    "percentage": 6.86
   },
   {
-    "route": "东灵山",
-    "percentage": 2.86
-  },
-  {
-    "route": "翠屏湖",
-    "percentage": 2.86
-  },
-  {
-    "route": "三峰",
-    "percentage": 2.86
-  },
-  {
-    "route": "野鸭湖",
-    "percentage": 2.86
+    "route": "广化寺",
+    "percentage": 5.88
   },
   {
     "route": "蚕姑坨",
-    "percentage": 2.86
+    "percentage": 3.92
   },
   {
-    "route": "南太行",
-    "percentage": 2.86
+    "route": "东灵山",
+    "percentage": 2.94
   },
   {
-    "route": "龙虎峪",
-    "percentage": 1.43
+    "route": "雁栖湖",
+    "percentage": 2.94
   },
   {
-    "route": "满金峪",
-    "percentage": 1.43
-  },
-  {
-    "route": "云蒙峡谷",
-    "percentage": 1.43
-  },
-  {
-    "route": "恩施",
-    "percentage": 1.43
-  },
-  {
-    "route": "十渡",
-    "percentage": 1.43
-  },
-  {
-    "route": "赤壁丹霞",
-    "percentage": 1.43
-  },
-  {
-    "route": "桦皮岭",
-    "percentage": 1.43
+    "route": "翠屏湖",
+    "percentage": 2.94
   },
   {
     "route": "咔嚓古道",
-    "percentage": 1.43
+    "percentage": 1.96
   },
   {
-    "route": "济州岛",
-    "percentage": 1.43
-  },
-  {
-    "route": "翡翠湖",
-    "percentage": 1.43
-  },
-  {
-    "route": "黄山",
-    "percentage": 1.43
-  },
-  {
-    "route": "红花峪",
-    "percentage": 1.43
-  },
-  {
-    "route": "银山塔林",
-    "percentage": 1.43
-  },
-  {
-    "route": "坡峰岭",
-    "percentage": 1.43
+    "route": "珍珠湖",
+    "percentage": 1.96
   },
   {
     "route": "白瀑寺",
-    "percentage": 1.43
+    "percentage": 1.96
+  },
+  {
+    "route": "三峰",
+    "percentage": 1.96
+  },
+  {
+    "route": "野鸭湖",
+    "percentage": 1.96
+  },
+  {
+    "route": "广惠寺",
+    "percentage": 1.96
+  },
+  {
+    "route": "南太行",
+    "percentage": 1.96
+  },
+  {
+    "route": "龙虎峪",
+    "percentage": 0.98
+  },
+  {
+    "route": "满金峪",
+    "percentage": 0.98
+  },
+  {
+    "route": "云蒙峡谷",
+    "percentage": 0.98
+  },
+  {
+    "route": "恩施",
+    "percentage": 0.98
+  },
+  {
+    "route": "十渡",
+    "percentage": 0.98
+  },
+  {
+    "route": "赤壁丹霞",
+    "percentage": 0.98
+  },
+  {
+    "route": "桦皮岭",
+    "percentage": 0.98
+  },
+  {
+    "route": "济州岛",
+    "percentage": 0.98
+  },
+  {
+    "route": "翡翠湖",
+    "percentage": 0.98
+  },
+  {
+    "route": "狐狸峪",
+    "percentage": 0.98
+  },
+  {
+    "route": "药王谷",
+    "percentage": 0.98
+  },
+  {
+    "route": "黄山",
+    "percentage": 0.98
+  },
+  {
+    "route": "红花峪",
+    "percentage": 0.98
+  },
+  {
+    "route": "银山塔林",
+    "percentage": 0.98
+  },
+  {
+    "route": "坡峰岭",
+    "percentage": 0.98
   },
   {
     "route": "龙宫山",
-    "percentage": 1.43
+    "percentage": 0.98
+  },
+  {
+    "route": "北灵山",
+    "percentage": 0.98
+  },
+  {
+    "route": "石虎线",
+    "percentage": 0.98
+  },
+  {
+    "route": "燕羽山",
+    "percentage": 0.98
+  },
+  {
+    "route": "箭扣长城",
+    "percentage": 0.98
   },
   {
     "route": "老虎坑",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "三界碑",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "漆树洼",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "京西古道",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "豹子岭",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "棺材山",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "狗牙山",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "蟒山",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "猫耳山",
-    "percentage": 1.43
+    "percentage": 0.98
   },
   {
     "route": "嵩山",
-    "percentage": 1.43
+    "percentage": 0.98
   }
 ]
