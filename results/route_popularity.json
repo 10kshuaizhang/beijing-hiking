@@ -1,282 +1,254 @@
 [
   {
-    "route": "舞彩浅山",
-    "percentage": 8.7
+    "route": "珍珠湖",
+    "percentage": 10.85
   },
   {
     "route": "金海湖",
-    "percentage": 7.83
-  },
-  {
-    "route": "广化寺",
-    "percentage": 4.78
-  },
-  {
-    "route": "谷积山",
-    "percentage": 4.78
-  },
-  {
-    "route": "婺源",
-    "percentage": 4.78
-  },
-  {
-    "route": "珍珠湖",
-    "percentage": 3.91
-  },
-  {
-    "route": "蚕姑坨",
-    "percentage": 3.04
-  },
-  {
-    "route": "红花峪",
-    "percentage": 2.61
+    "percentage": 7.08
   },
   {
     "route": "白瀑寺",
-    "percentage": 2.61
+    "percentage": 6.13
   },
   {
     "route": "野鸭湖",
-    "percentage": 2.61
-  },
-  {
-    "route": "潭柘寺",
-    "percentage": 2.17
-  },
-  {
-    "route": "翠屏湖",
-    "percentage": 2.17
-  },
-  {
-    "route": "狗牙山",
-    "percentage": 2.17
+    "percentage": 6.13
   },
   {
     "route": "狐狸峪",
-    "percentage": 2.17
-  },
-  {
-    "route": "银山塔林",
-    "percentage": 1.74
-  },
-  {
-    "route": "十渡",
-    "percentage": 1.74
+    "percentage": 5.66
   },
   {
     "route": "赤壁丹霞",
-    "percentage": 1.74
+    "percentage": 5.19
   },
   {
-    "route": "桦皮岭",
-    "percentage": 1.74
-  },
-  {
-    "route": "咔嚓古道",
-    "percentage": 1.74
-  },
-  {
-    "route": "三界碑",
-    "percentage": 1.74
+    "route": "婺源",
+    "percentage": 4.25
   },
   {
     "route": "东灵山",
-    "percentage": 1.74
+    "percentage": 3.3
   },
   {
-    "route": "坡峰岭",
-    "percentage": 1.74
-  },
-  {
-    "route": "燕羽山",
-    "percentage": 1.3
-  },
-  {
-    "route": "雁栖湖",
-    "percentage": 1.3
-  },
-  {
-    "route": "南太行",
-    "percentage": 1.3
-  },
-  {
-    "route": "石虎线",
-    "percentage": 1.3
-  },
-  {
-    "route": "南北梯",
-    "percentage": 0.87
-  },
-  {
-    "route": "栖隐寺",
-    "percentage": 0.87
-  },
-  {
-    "route": "媳妇岭",
-    "percentage": 0.87
-  },
-  {
-    "route": "长峪城",
-    "percentage": 0.87
-  },
-  {
-    "route": "漆树洼",
-    "percentage": 0.87
-  },
-  {
-    "route": "三峰",
-    "percentage": 0.87
-  },
-  {
-    "route": "龙宫山",
-    "percentage": 0.87
-  },
-  {
-    "route": "北灵山",
-    "percentage": 0.87
-  },
-  {
-    "route": "广惠寺",
-    "percentage": 0.87
-  },
-  {
-    "route": "嵩山",
-    "percentage": 0.87
-  },
-  {
-    "route": "三皇山",
-    "percentage": 0.43
-  },
-  {
-    "route": "龙虎峪",
-    "percentage": 0.43
-  },
-  {
-    "route": "满金峪",
-    "percentage": 0.43
-  },
-  {
-    "route": "云蒙峡谷",
-    "percentage": 0.43
-  },
-  {
-    "route": "恩施",
-    "percentage": 0.43
-  },
-  {
-    "route": "慕田峪长城",
-    "percentage": 0.43
-  },
-  {
-    "route": "金山寺",
-    "percentage": 0.43
-  },
-  {
-    "route": "济州岛",
-    "percentage": 0.43
-  },
-  {
-    "route": "蒋福山",
-    "percentage": 0.43
-  },
-  {
-    "route": "翡翠湖",
-    "percentage": 0.43
-  },
-  {
-    "route": "药王谷",
-    "percentage": 0.43
-  },
-  {
-    "route": "鱼骨寺",
-    "percentage": 0.43
-  },
-  {
-    "route": "独乐寺",
-    "percentage": 0.43
-  },
-  {
-    "route": "黄山",
-    "percentage": 0.43
-  },
-  {
-    "route": "蟠龙山长城",
-    "percentage": 0.43
-  },
-  {
-    "route": "黄花梁",
-    "percentage": 0.43
-  },
-  {
-    "route": "箭扣长城",
-    "percentage": 0.43
-  },
-  {
-    "route": "老虎坑",
-    "percentage": 0.43
-  },
-  {
-    "route": "京西古道",
-    "percentage": 0.43
-  },
-  {
-    "route": "豹子岭",
-    "percentage": 0.43
-  },
-  {
-    "route": "香山",
-    "percentage": 0.43
-  },
-  {
-    "route": "铡刀背",
-    "percentage": 0.43
-  },
-  {
-    "route": "京西小华山",
-    "percentage": 0.43
-  },
-  {
-    "route": "撞道口",
-    "percentage": 0.43
-  },
-  {
-    "route": "长峪村",
-    "percentage": 0.43
-  },
-  {
-    "route": "鳌鱼沟",
-    "percentage": 0.43
-  },
-  {
-    "route": "杏树台",
-    "percentage": 0.43
+    "route": "十渡",
+    "percentage": 2.83
   },
   {
     "route": "鹿皮关",
-    "percentage": 0.43
+    "percentage": 2.36
   },
   {
-    "route": "梨花顶",
-    "percentage": 0.43
+    "route": "三界碑",
+    "percentage": 2.36
   },
   {
-    "route": "棺材山",
-    "percentage": 0.43
+    "route": "铡刀背",
+    "percentage": 1.89
+  },
+  {
+    "route": "幽州峡谷",
+    "percentage": 1.89
+  },
+  {
+    "route": "翠屏湖",
+    "percentage": 1.89
+  },
+  {
+    "route": "长峪城",
+    "percentage": 1.89
   },
   {
     "route": "蟒山",
-    "percentage": 0.43
+    "percentage": 1.42
   },
   {
-    "route": "猫耳山",
-    "percentage": 0.43
+    "route": "蚕姑坨",
+    "percentage": 1.42
   },
   {
-    "route": "聚仙谷",
-    "percentage": 0.43
+    "route": "狗牙山",
+    "percentage": 1.42
   },
   {
-    "route": "玉皇塔",
-    "percentage": 0.43
+    "route": "北灵山",
+    "percentage": 1.42
+  },
+  {
+    "route": "龙宫山",
+    "percentage": 0.94
+  },
+  {
+    "route": "千灵山",
+    "percentage": 0.94
+  },
+  {
+    "route": "鳌鱼沟",
+    "percentage": 0.94
+  },
+  {
+    "route": "金祖山",
+    "percentage": 0.94
+  },
+  {
+    "route": "三峰",
+    "percentage": 0.94
+  },
+  {
+    "route": "燕羽山",
+    "percentage": 0.94
+  },
+  {
+    "route": "咔嚓古道",
+    "percentage": 0.94
+  },
+  {
+    "route": "栖隐寺",
+    "percentage": 0.94
+  },
+  {
+    "route": "歪顶坨",
+    "percentage": 0.94
+  },
+  {
+    "route": "银山塔林",
+    "percentage": 0.94
+  },
+  {
+    "route": "南太行",
+    "percentage": 0.94
+  },
+  {
+    "route": "红螺三险",
+    "percentage": 0.94
+  },
+  {
+    "route": "黄山",
+    "percentage": 0.94
+  },
+  {
+    "route": "棺材山",
+    "percentage": 0.47
+  },
+  {
+    "route": "西山",
+    "percentage": 0.47
+  },
+  {
+    "route": "谷积山",
+    "percentage": 0.47
+  },
+  {
+    "route": "广惠寺",
+    "percentage": 0.47
+  },
+  {
+    "route": "京西草原",
+    "percentage": 0.47
+  },
+  {
+    "route": "桦皮岭",
+    "percentage": 0.47
+  },
+  {
+    "route": "翡翠湖",
+    "percentage": 0.47
+  },
+  {
+    "route": "漆树洼",
+    "percentage": 0.47
+  },
+  {
+    "route": "慕田峪长城",
+    "percentage": 0.47
+  },
+  {
+    "route": "琉璃渠",
+    "percentage": 0.47
+  },
+  {
+    "route": "红螺寺",
+    "percentage": 0.47
+  },
+  {
+    "route": "舞彩浅山",
+    "percentage": 0.47
+  },
+  {
+    "route": "白石口长城",
+    "percentage": 0.47
+  },
+  {
+    "route": "白河峡谷",
+    "percentage": 0.47
+  },
+  {
+    "route": "铁坨山",
+    "percentage": 0.47
+  },
+  {
+    "route": "蟠龙山长城",
+    "percentage": 0.47
+  },
+  {
+    "route": "野狼谷",
+    "percentage": 0.47
+  },
+  {
+    "route": "千佛崖",
+    "percentage": 0.47
+  },
+  {
+    "route": "天池",
+    "percentage": 0.47
+  },
+  {
+    "route": "雁栖湖",
+    "percentage": 0.47
+  },
+  {
+    "route": "三峡",
+    "percentage": 0.47
+  },
+  {
+    "route": "香山",
+    "percentage": 0.47
+  },
+  {
+    "route": "海坨山",
+    "percentage": 0.47
+  },
+  {
+    "route": "石虎线",
+    "percentage": 0.47
+  },
+  {
+    "route": "王家山",
+    "percentage": 0.47
+  },
+  {
+    "route": "将尖山",
+    "percentage": 0.47
+  },
+  {
+    "route": "三皇山",
+    "percentage": 0.47
+  },
+  {
+    "route": "高家山",
+    "percentage": 0.47
+  },
+  {
+    "route": "南北梯",
+    "percentage": 0.47
+  },
+  {
+    "route": "新平堡",
+    "percentage": 0.47
+  },
+  {
+    "route": "苍岩山",
+    "percentage": 0.47
   }
 ]
