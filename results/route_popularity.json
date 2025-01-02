@@ -1,134 +1,166 @@
 [
   {
-    "route": "东灵山",
-    "percentage": 12.12
-  },
-  {
-    "route": "桦皮岭",
-    "percentage": 9.09
-  },
-  {
-    "route": "白河",
-    "percentage": 7.58
-  },
-  {
-    "route": "妫水河",
-    "percentage": 6.06
-  },
-  {
     "route": "桃源仙谷",
-    "percentage": 4.55
-  },
-  {
-    "route": "珍珠湖",
-    "percentage": 4.55
-  },
-  {
-    "route": "金山岭长城",
-    "percentage": 3.03
-  },
-  {
-    "route": "九龙峡谷",
-    "percentage": 3.03
+    "percentage": 15.7
   },
   {
     "route": "天仙瀑",
-    "percentage": 3.03
+    "percentage": 12.4
   },
   {
-    "route": "麻田岭",
-    "percentage": 3.03
+    "route": "白河",
+    "percentage": 8.26
+  },
+  {
+    "route": "桦皮岭",
+    "percentage": 8.26
+  },
+  {
+    "route": "妫水河",
+    "percentage": 7.44
   },
   {
     "route": "鳌鱼沟",
-    "percentage": 3.03
+    "percentage": 4.13
   },
   {
-    "route": "香山",
-    "percentage": 1.52
+    "route": "水峪里",
+    "percentage": 3.31
   },
   {
-    "route": "嵩山",
-    "percentage": 1.52
+    "route": "麻田岭",
+    "percentage": 3.31
   },
   {
-    "route": "麦理浩径",
-    "percentage": 1.52
-  },
-  {
-    "route": "千灵山",
-    "percentage": 1.52
-  },
-  {
-    "route": "虎峪",
-    "percentage": 1.52
-  },
-  {
-    "route": "彩虹洞",
-    "percentage": 1.52
-  },
-  {
-    "route": "玉龙湾",
-    "percentage": 1.52
-  },
-  {
-    "route": "鬼笑石",
-    "percentage": 1.52
-  },
-  {
-    "route": "金海湖",
-    "percentage": 1.52
-  },
-  {
-    "route": "藤萝谷",
-    "percentage": 1.52
+    "route": "龙庆峡",
+    "percentage": 2.48
   },
   {
     "route": "北灵山",
-    "percentage": 1.52
+    "percentage": 2.48
+  },
+  {
+    "route": "珍珠湖",
+    "percentage": 2.48
+  },
+  {
+    "route": "千灵山",
+    "percentage": 1.65
+  },
+  {
+    "route": "藤萝谷",
+    "percentage": 1.65
+  },
+  {
+    "route": "东灵山",
+    "percentage": 1.65
+  },
+  {
+    "route": "翠鸟谷",
+    "percentage": 1.65
+  },
+  {
+    "route": "蔚州古城",
+    "percentage": 0.83
+  },
+  {
+    "route": "九龙峡谷",
+    "percentage": 0.83
+  },
+  {
+    "route": "虎峪",
+    "percentage": 0.83
+  },
+  {
+    "route": "彩虹洞",
+    "percentage": 0.83
+  },
+  {
+    "route": "玉龙湾",
+    "percentage": 0.83
+  },
+  {
+    "route": "咔嚓古道",
+    "percentage": 0.83
+  },
+  {
+    "route": "石京龙",
+    "percentage": 0.83
+  },
+  {
+    "route": "白云坨",
+    "percentage": 0.83
+  },
+  {
+    "route": "香山",
+    "percentage": 0.83
+  },
+  {
+    "route": "幽州峡谷",
+    "percentage": 0.83
   },
   {
     "route": "南太行",
-    "percentage": 1.52
+    "percentage": 0.83
   },
   {
     "route": "渔阳",
-    "percentage": 1.52
+    "percentage": 0.83
   },
   {
     "route": "老君山",
-    "percentage": 1.52
+    "percentage": 0.83
   },
   {
-    "route": "鹿皮关",
-    "percentage": 1.52
-  },
-  {
-    "route": "天门山",
-    "percentage": 1.52
+    "route": "卧牛盘",
+    "percentage": 0.83
   },
   {
     "route": "京西古道",
-    "percentage": 1.52
+    "percentage": 0.83
   },
   {
-    "route": "奥森",
-    "percentage": 1.52
+    "route": "半块豆腐山",
+    "percentage": 0.83
   },
   {
-    "route": "龙宫山",
-    "percentage": 1.52
+    "route": "五座楼",
+    "percentage": 0.83
   },
   {
-    "route": "燕羽山",
-    "percentage": 1.52
+    "route": "石门山",
+    "percentage": 0.83
   },
   {
-    "route": "鸡鸣山",
-    "percentage": 1.52
+    "route": "安家庄",
+    "percentage": 0.83
+  },
+  {
+    "route": "娘娘顶",
+    "percentage": 0.83
+  },
+  {
+    "route": "营盘梁",
+    "percentage": 0.83
+  },
+  {
+    "route": "双黄连",
+    "percentage": 0.83
+  },
+  {
+    "route": "竹林寺",
+    "percentage": 0.83
+  },
+  {
+    "route": "双龙峡",
+    "percentage": 0.83
+  },
+  {
+    "route": "天门山",
+    "percentage": 0.83
   },
   {
     "route": "野鸭湖",
-    "percentage": 1.52
+    "percentage": 0.83
   }
 ]
